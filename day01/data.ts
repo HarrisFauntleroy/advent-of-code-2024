@@ -1013,4 +1013,4 @@ export const locationIdsSimple = [
   [1, 3],
   [3, 9],
   [3, 3],
-]
+];
