@@ -1000,3 +1000,17 @@ export const locationIds = [
   [14454, 69804],
   [19976, 46609],
 ];
+
+/**
+ * A simple array of location IDs with known expectations from the AoC example
+ * similarityScore should equal 31
+ * totalDistance should equal 11
+ */
+export const locationIdsSimple = [
+  [3, 4],
+  [4, 3],
+  [2, 5],
+  [1, 3],
+  [3, 9],
+  [3, 3],
+]
