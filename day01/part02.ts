@@ -10,7 +10,7 @@ export const locationIdsSimple = [
   [3, 3],
 ]
 
-const getSimilarityScore = (locationIds: number[][]) => {
+export const getSimilarityScore = (locationIds: number[][]) => {
   const leftNumbers = locationIds.map(([left]) => left);
   const rightNumbers = locationIds.map(([, right]) => right);
   

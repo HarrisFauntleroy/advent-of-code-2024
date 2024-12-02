@@ -10,7 +10,7 @@ export const locationIdsSimple = [
   [3, 3],
 ]
 
-const sortList = (list: number[][]): number[][] => {
+export const sortList = (list: number[][]): number[][] => {
   const [left, right] = [
     [...list].map(([a]) => a).sort((a, b) => a - b),
     [...list].map(([, b]) => b).sort((a, b) => a - b)
@@ -18,7 +18,7 @@ const sortList = (list: number[][]): number[][] => {
   return left.map((a, i) => [a, right[i]]);
 };
 
-const totalDistance = (ids: number[][]) => {
+export const totalDistance = (ids: number[][]) => {
   return sortList(ids).reduce((acc, [a, b]) => acc + Math.abs(a - b), 0)
 }
 
