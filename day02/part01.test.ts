@@ -1,5 +1,5 @@
 import { reportsSimple } from "./data";
-import { safeReports, totalSafeReports } from "./part01";
+import { safeReports, countSafeReports } from "./part01";
 import { describe, expect, it } from "bun:test";
 
 describe("safeReports", () => {
@@ -14,6 +14,6 @@ describe("totalSafeReports", () => {
   it("should return 2", () => {
     const expected = 2;
 
-    expect(totalSafeReports(reportsSimple)).toEqual(expected);
+    expect(countSafeReports(reportsSimple)).toEqual(expected);
   });
 });

@@ -8,13 +8,14 @@ My solutions for [Advent of Code](https://adventofcode.com/) challenges.
 ├── 2024/
 │   ├── day01/
 │   │   ├── data.ts
-│   │   ├── details.txt
+│   │   ├── input.txt
 │   │   ├── part01.ts
+│   │   ├── part01.test.ts
 │   │   └── part02.ts
+│   │   └── part02.test.ts
 │   ├── day02/
 │   └── ...
-└── utils/
-    └── helpers.ts
+└── README.md
 ```
 
 ## Running Solutions
