@@ -1,3 +1,17 @@
+/**
+ * A simple array of location IDs with known expectations from the AoC example
+ * similarityScore should equal 31
+ * totalDistance should equal 11
+ */
+export const locationIdsSimple = [
+  [3, 4],
+  [4, 3],
+  [2, 5],
+  [1, 3],
+  [3, 9],
+  [3, 3],
+];
+
 export const locationIds = [
   [77221, 93653],
   [61169, 27995],
@@ -999,18 +1013,4 @@ export const locationIds = [
   [53735, 79935],
   [14454, 69804],
   [19976, 46609],
-];
-
-/**
- * A simple array of location IDs with known expectations from the AoC example
- * similarityScore should equal 31
- * totalDistance should equal 11
- */
-export const locationIdsSimple = [
-  [3, 4],
-  [4, 3],
-  [2, 5],
-  [1, 3],
-  [3, 9],
-  [3, 3],
 ];

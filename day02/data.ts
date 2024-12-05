@@ -1,3 +1,13 @@
+// source: https://adventofcode.com/2024/day/2
+export const reportsSimple = `
+7 6 4 2 1
+1 2 7 8 9
+9 7 6 2 1
+1 3 2 4 5
+8 6 4 4 1
+1 3 6 7 9
+`;
+
 // source: https://adventofcode.com/2024/day/2/input
 export const reports = `
 51 52 55 58 60 61 62 61
@@ -1000,14 +1010,4 @@ export const reports = `
 52 54 56 57 58 60
 50 49 48 46 43 42
 15 12 11 9 6 4
-`;
-
-// source: https://adventofcode.com/2024/day/2
-export const reportsSimple = `
-7 6 4 2 1
-1 2 7 8 9
-9 7 6 2 1
-1 3 2 4 5
-8 6 4 4 1
-1 3 6 7 9
 `;

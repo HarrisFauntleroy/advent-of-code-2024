@@ -3,7 +3,7 @@ import { safeReports, countSafeReports } from "./part01";
 import { describe, expect, it } from "bun:test";
 
 describe("safeReports", () => {
-  it("should return [true, false, true]", () => {
+  it("should correctly evaluate reports", () => {
     const expected = [true, false, false, false, false, true];
 
     expect(safeReports(reportsSimple)).toEqual(expected);
@@ -11,7 +11,7 @@ describe("safeReports", () => {
 });
 
 describe("totalSafeReports", () => {
-  it("should return 2", () => {
+  it("should correctly count safe reports", () => {
     const expected = 2;
 
     expect(countSafeReports(reportsSimple)).toEqual(expected);
