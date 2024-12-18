@@ -5,7 +5,7 @@ type Direction = 'N' | 'NE' | 'E' | 'SE' | 'S' | 'SW' | 'W' | 'NW';
 type Position = [number, number];
 type Grid = string[][];
 
-type CheckFunction = (startPos: Position, letterArrays: string[][], word: string, direction: Direction) => boolean;
+type CheckFunction = (startPos: Position, grid: Grid, word: string, direction: Direction) => boolean;
 
 interface DirectionCheck {
   check: CheckFunction,
