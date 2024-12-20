@@ -16,7 +16,7 @@ describe("day04/part02", () => {
     MXMXAXMASX
     `;
 
-    const expected = 18;
+    const expected = 9;
 
     const actual = findXPatterns(example);
 
@@ -25,14 +25,14 @@ describe("day04/part02", () => {
 
   it("simple X", () => {
     const example = `
-    BBBBB
-    BBBBB
-    SBSBB
+    MBMBM
+    BABAB
+    SBSBS
     BABBB
     MBMBB
     `;
 
-    const expected = 2;
+    const expected = 3;
 
     const actual = findXPatterns(example);
 

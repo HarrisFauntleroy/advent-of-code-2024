@@ -53,7 +53,10 @@ export const checkWordInDirection = (
 ): boolean => {
   if (!isInBounds(startPos, grid, word, direction)) return false;
 
+  console.log("word", word);
+
   return [...word].every((nextLetter, index) => {
+    console.log("nextLetter", nextLetter);
     const [currentRow, currentCol] = getOffset(startPos, index, direction);
     const currentLetter = grid[currentRow][currentCol];
     return currentLetter === nextLetter;
@@ -81,3 +84,5 @@ export const DIRECTIONS: Direction[] = [
   "W",
   "NW",
 ];
+
+export const INTERCARDINAL_DIRECTIONS: Direction[] = ["NE", "SE", "SW", "NW"];
