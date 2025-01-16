@@ -62,3 +62,7 @@ bun day01/part02.ts
 
 - Solutions are my own work
 - Input files are not included in the repository per AOC's [request](https://www.reddit.com/r/adventofcode/wiki/faqs/copyright/inputs/)
+
+---
+
+![Visualization of this repo](./diagram.svg)
