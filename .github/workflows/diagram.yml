@@ -1,9 +1,9 @@
 name: Create diagram
 on:
   workflow_dispatch: {}
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 0 * * 0' # Run every Sunday at midnight
+
 jobs:
   get_data:
     permissions: write-all
@@ -14,4 +14,4 @@ jobs:
       - name: Update diagram
         uses: githubocto/repo-visualizer@main
         with:
-          excluded_paths: "ignore,.github,node_modules"
+          excluded_paths: "ignore,.github"
